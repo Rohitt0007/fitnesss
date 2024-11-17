@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    height: 8%;
+    background: transparent;
+    width: 100%;
+     background-color: #fff; 
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     
+}
+.ll>h1{
+    color: #fa0633;
+}
+.cc{
+    display: flex;
+    gap: 20px;
+}
+.cc>a{
+    text-decoration: none;
+    color: black;
+}
+.rr{
+width: 10%;
+/* background-color: yellow; */
+}
+.rr>button{
+    padding: 6px 30px;
+    color: white;
+    background-color: #fa0633;
+    border-radius: 5px;
+    border: none;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+    background-image: url(https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.page1>h1{
+    color: white;
+    font-size: 60px;
+}
+.page1>p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.page1>button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fa0633;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+   
+}
+.lt{
+    height: 100%;
+    width: 50%;
+    background-color:gold;
+    border: 1px solid black;
+    background-image: url(https://images.unsplash.com/photo-1534872850130-5355701fcc89?q=80&w=1496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+}
+.rt{
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    /* padding: 200px ; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.rt>h3{
+    margin-top: 10px;
+    color: #fa0633;
+}
+.rt>h1{
+    color: #fa0633;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(32, 34, 33, 0.76);
+
+    
+    
+}
+
+.up{
+    height: 30%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.up>h1{
+    color: white;
+    font-size: 40px;
+}
+.up>button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fa0633;
+    border: none;
+    border-radius: 5px;
+}
+.up>span>button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+.dw{
+    height: 70%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     gap:20px; 
+}
+.elem{
+    height: 400px;
+    width: 250px;
+    background-color: #fa0633;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+.elem>h1{
+    width: 60%;
+    color: white;
+
+}
+.elem>p{
+    color: white;
+}
+.page4{
+    height: 80%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+.ld{
+    height: 100%;
+    width: 50%;
+    background-color: #3f3f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+}
+.ld>h1{
+    color: white;
+}
+.ld>p{
+    color: white;
+}
+.rd{
+    height: 100%;
+    width: 50%;
+    background-color: #3f3f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+}
+.rd>h2{
+    color: white;
+}
+.rd>p{
+    color: white;
+}
+.rd>h4{
+    color: white;
+    margin-top: 20px;
+}
